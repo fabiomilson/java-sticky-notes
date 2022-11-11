@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+
+<VBox alignment="CENTER" minHeight="360.0" minWidth="290.0" prefHeight="360.0" prefWidth="290.0" spacing="20.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.packtudo.javastickynotes.javastickynotes.controller.CardController">
+    <padding>
+        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+    </padding>
+   <children>
+      <BorderPane maxHeight="40.0" minHeight="40.0" minWidth="150.0" onMouseDragged="#dragEvent" onMousePressed="#preDragEvent" prefHeight="84.0" prefWidth="250.0" style="-fx-background-color: green;">
+         <right>
+            <HBox alignment="CENTER" nodeOrientation="RIGHT_TO_LEFT" prefHeight="34.0" prefWidth="66.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button alignment="CENTER_RIGHT" contentDisplay="CENTER" mnemonicParsing="false" text="X" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="btn" />
+                        <String fx:value="btn-danger" />
+                     </styleClass></Button>
+               </children>
+            </HBox>
+         </right>
+      </BorderPane>
+      <HTMLEditor htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" prefHeight="200.0" prefWidth="506.0" />
+      <TextArea nodeOrientation="LEFT_TO_RIGHT" wrapText="true" VBox.vgrow="ALWAYS">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </TextArea>
+   </children>
+</VBox>

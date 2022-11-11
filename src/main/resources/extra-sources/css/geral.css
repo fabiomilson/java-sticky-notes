@@ -1,0 +1,5 @@
+.remove-focus { -fx-focus-color: transparent; }
+.list-cell:filled:selected {
+  -fx-background-color: -fx-background ;
+  -fx-background-insets: 0 ;
+}

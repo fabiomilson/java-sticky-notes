@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+		http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+		http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+		http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd">
+
+    <include file="db-scripts/changes/1-create-table-card.sql" />
+    <include file="db-scripts/changes/2-insert-card.sql" />
+    <include file="db-scripts/changes/3-alter-table-card-coluna-x.sql" />
+    <include file="db-scripts/changes/4-alter-table-card-coluna-y.sql" />
+    <include file="db-scripts/changes/5-alter-table-card-coluna-visivel.sql" />
+    <include file="db-scripts/changes/6-update-card-visivel.sql" />
+    <include file="db-scripts/changes/7-alter-table-card-title.sql" />
+    <include file="db-scripts/changes/8-update-card-titulo.sql" />
+    <include file="db-scripts/changes/9-create-table-card-history.sql" />
+</databaseChangeLog>

@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS CARD_HISTORICO
+(
+    ID       INTEGER,
+    CONTEUDO VARCHAR,
+    X        REAL,
+    Y        REAL,
+    VISIVEL  INT,
+    TITULO   VARCHAR
+);
+
